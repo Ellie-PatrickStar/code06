@@ -44,4 +44,12 @@
         <item>Ajay Dasgupta</item><item>Gargi Pant</item>
         <item>Gargi Pant</item>
     </string-array >
+    <string-array name="images">
+        <item>@drawable/img_01李清照</item>
+        <item>@drawable/img_02陆游</item>
+        <item>@drawable/img_03杜牧</item>
+        <item>@drawable/img_04李白</item>
+
+    </string-array>
+
 </resources>
