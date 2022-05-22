@@ -28,14 +28,20 @@
             android:textColor="?attr/colorAccent"
             android:textSize="18sp"
             android:textStyle="bold" />
-    <TextView
-        android:id="@+id/tv_subtitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_title"
-        android:paddingStart="8dp"
-        android:paddingBottom="4dp"
-        android:textColor="@android:color/secondary_text_light"
-        style="@style/TextAppearance.AppCompat.Subhead"/>
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:paddingStart="8dp"
+            android:paddingBottom="4dp"
+            android:textColor="@android:color/secondary_text_light"
+            style="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#FF909090"/>
+
     </RelativeLayout >
     </androidx.cardview.widget.CardView>
